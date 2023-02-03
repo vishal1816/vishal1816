@@ -25,16 +25,16 @@ export const exploreWorlds = [
     title: 'Your idea, You are a full time founder and you have the capital.But you don’t want to form a company straight away. Talk to us to understand more about this model.',
   },
   {
-    id: 'world-5',
+    id: 'world-6',
     imgUrl: '/planet-05.png',
     title: 'Your organization is getting bigger. Innovation and speed are no longer it’s forte. Talk to us about our corporate co-build options. Let’s see how we can change the technology landscape of your organization.',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Read the operating models mentioned above. ',
+  'Fill the form here and reach out to us.',
+  // 'No need to beat around the bush, just stay on the gas and have fun',
 ];
 
 export const newFeatures = [
@@ -54,23 +54,154 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
-    subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+    id: 'world-1',
+    imgUrl: '/planet-01.png',
+    title: 'Codenia Technologies',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+    id: 'world-2',
+    imgUrl: '/planet-02.png',
+    title: 'Comming Soon ',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+    id: 'world-3',
+    imgUrl: '/planet-03.png',
+    title: 'Comming Soon ',
   },
+  {
+    id: 'world-4',
+    imgUrl: '/planet-04.png',
+    title: 'Comming Soon',
+  },
+  {
+    id: 'world-5',
+    imgUrl: '/planet-05.png',
+    title: 'Comming Soon',
+  },
+  
+];
+
+export const trackWorlds = [
+  {
+    id: 'world-1',
+    imgUrl: '/planet-01.png',
+    title: 'Comming Soon',
+  },
+  {
+    id: 'world-2',
+    imgUrl: '/planet-02.png',
+    title: 'Comming Soon ',
+  },
+  {
+    id: 'world-3',
+    imgUrl: '/planet-03.png',
+    title: 'Comming Soon ',
+  },
+  {
+    id: 'world-4',
+    imgUrl: '/planet-04.png',
+    title: 'Comming Soon',
+  },
+  {
+    id: 'world-5',
+    imgUrl: '/planet-05.png',
+    title: 'Comming Soon',
+  },
+  
+];
+
+export const whatsnew = [
+  {
+    id: 'world-1',
+    imgUrl: '/planet-01.png',
+    title: 'Your Idea, You  are a full time founder and you have the capital. We form a company and we start the build together. We grind together to make this company successful',
+  },
+  {
+    id: 'world-2',
+    imgUrl: '/planet-02.png',
+    title: 'Your Idea, You  are a part-time founder and you have no capital. We form a company and we start the build together. We grind together to make this company successful. ',
+  },
+  {
+    id: 'world-3',
+    imgUrl: '/planet-03.png',
+    title: 'Your Idea, You are a full time founder and you just want someone to build the product. We build the product and you pay us for our services. ',
+  },
+  {
+    id: 'world-4',
+    imgUrl: '/planet-04.png',
+    title: 'Come be part of the studio build projects. We are constantly innovating and building. Look at the options and see if you want to be associated.',
+  },
+  {
+    id: 'world-5',
+    imgUrl: '/planet-05.png',
+    title: 'Your idea, You are a full time founder and you have the capital.But you don’t want to form a company straight away. Talk to us to understand more about this model.',
+  },
+  {
+    id: 'world-6',
+    imgUrl: '/planet-05.png',
+    title: 'Your organization is getting bigger. Innovation and speed are no longer it’s forte. Talk to us about our corporate co-build options. Let’s see how we can change the technology landscape of your organization.',
+  },
+  {
+    id: 'world-7',
+    imgUrl: '/planet-01.png',
+    title: 'Your Idea, You  are a full time founder and you have the capital. We form a company and we start the build together. We grind together to make this company successful',
+  },
+  {
+    id: 'world-8',
+    imgUrl: '/planet-02.png',
+    title: 'Your Idea, You  are a part-time founder and you have no capital. We form a company and we start the build together. We grind together to make this company successful. ',
+  },
+  {
+    id: 'world-9',
+    imgUrl: '/planet-03.png',
+    title: 'Your Idea, You are a full time founder and you just want someone to build the product. We build the product and you pay us for our services. ',
+  },
+  {
+    id: 'world-10',
+    imgUrl: '/planet-04.png',
+    title: 'Come be part of the studio build projects. We are constantly innovating and building. Look at the options and see if you want to be associated.',
+  },
+  {
+    id: 'world-11',
+    imgUrl: '/planet-05.png',
+    title: 'Your idea, You are a full time founder and you have the capital.But you don’t want to form a company straight away. Talk to us to understand more about this model.',
+  },
+  {
+    id: 'world-12',
+    imgUrl: '/planet-05.png',
+    title: 'Your organization is getting bigger. Innovation and speed are no longer it’s forte. Talk to us about our corporate co-build options. Let’s see how we can change the technology landscape of your organization.',
+  },
+  {
+    id: 'world-13',
+    imgUrl: '/planet-01.png',
+    title: 'Your Idea, You  are a full time founder and you have the capital. We form a company and we start the build together. We grind together to make this company successful',
+  },
+  {
+    id: 'world-14',
+    imgUrl: '/planet-02.png',
+    title: 'Your Idea, You  are a part-time founder and you have no capital. We form a company and we start the build together. We grind together to make this company successful. ',
+  },
+  {
+    id: 'world-15',
+    imgUrl: '/planet-03.png',
+    title: 'Your Idea, You are a full time founder and you just want someone to build the product. We build the product and you pay us for our services. ',
+  },
+  {
+    id: 'world-16',
+    imgUrl: '/planet-04.png',
+    title: 'Come be part of the studio build projects. We are constantly innovating and building. Look at the options and see if you want to be associated.',
+  },
+  {
+    id: 'world-17',
+    imgUrl: '/planet-05.png',
+    title: 'Your idea, You are a full time founder and you have the capital.But you don’t want to form a company straight away. Talk to us to understand more about this model.',
+  },
+  {
+    id: 'world-18',
+    imgUrl: '/planet-05.png',
+    title: 'Your organization is getting bigger. Innovation and speed are no longer it’s forte. Talk to us about our corporate co-build options. Let’s see how we can change the technology landscape of your organization.',
+  }
+
 ];
 
 export const socials = [
@@ -91,3 +222,4 @@ export const socials = [
     url: '/facebook.svg',
   },
 ];
+

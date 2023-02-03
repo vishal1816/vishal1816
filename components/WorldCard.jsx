@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import styles from "../styles";
 import { fadeIn } from "../utils/motion";
 
-const Insight = ({ id, imgUrl, title, index, active, handleClick }) => {
+const WorldCard = ({ id, imgUrl, title, index, active, handleClick }) => {
 
   return (
     <motion.div
@@ -40,13 +40,9 @@ const Insight = ({ id, imgUrl, title, index, active, handleClick }) => {
           <h2 className="mt-[24px] font-semibold sm:text-[20px] text-[24px] text-white">
             {title}
           </h2>
-
-    
-        
-      
         </div>
       )}
     </motion.div>
   );
 };
-export default Insight;
+export default WorldCard;

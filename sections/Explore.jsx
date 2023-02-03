@@ -7,6 +7,8 @@ import styles from '../styles';
 import { exploreWorlds } from '../constants';
 import { staggerContainer } from '../utils/motion';
 import { ExploreCard, TitleText, TypingText } from '../components';
+import { Carousel } from 'react-bootstrap';
+
 
 const Explore = () => {
   const [active, setActive] = useState('world-2');
@@ -25,16 +27,23 @@ const Explore = () => {
           title={<>Choose one of the  <br className="md:block hidden" /> Operating Models</>}
           textStyles="text-center"
         />
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-4">
+       
           {exploreWorlds.map((world, index) => (
+           
             <ExploreCard
               key={world.id}
               {...world}
               index={index}
               active={active}
               handleClick={setActive}
+              
             />
+            
+            
+            
           ))}
+          
         </div>
       </motion.div>
     </section>

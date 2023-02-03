@@ -10,6 +10,8 @@
   scroll-behavior: smooth;
 }
 
+
+
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
@@ -49,6 +51,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  font-size: 20px;
 }
 
 .glassmorphism {
@@ -111,4 +114,70 @@
 
   background: #65c4fa;
   filter: blur(150px);
+}
+
+
+  .navbar-collapse {
+      position: absolute;
+      top: 90px;
+      left: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      width: 100%;
+      transition: all 0.4s ease;
+      display: block;
+      margin-left: 12px;
+  }
+  .collapsing {
+      height: auto !important;
+      margin-left: 100%;
+      left: 50%;
+      transition: all 0.2s ease;
+  }
+  .show {
+      left: 0;
+  }
+
+  /* .fade1
+  {
+ display: none !important ;
+ opacity: 0 !important;
+  }
+  .modalShow{
+    display: block !important;
+    opacity: 1 !important;
+  } */
+
+  .fade:not(.show) {
+    opacity: 1 !important;
+}
+
+.modal.fade .modal-dialog {
+  transition: transform .3s ease-out;
+  transform: translate(0,74px) !important;
+}
+
+input {
+  width: 100%;
+  border: 1px solid lightgrey;
+}
+
+label {
+  display: flex !important;
+  width: 100%;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.carousel-root {
+  outline: none;
+  width: 100%;
+  height: 165px;
+}
+
+
+slick-slide img {
+display: block;
+padding: 10px !important;
 }

@@ -1,10 +1,11 @@
+
 "use client";
 
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { fadeIn } from "../utils/motion";
 
-const Insight = ({ id, imgUrl, title, index, active, handleClick }) => {
+const WhatsNewCard = ({ id, imgUrl, title, index, active, handleClick }) => {
 
   return (
     <motion.div
@@ -49,4 +50,4 @@ const Insight = ({ id, imgUrl, title, index, active, handleClick }) => {
     </motion.div>
   );
 };
-export default Insight;
+export default WhatsNewCard;

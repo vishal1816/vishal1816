@@ -1,10 +1,15 @@
-import Navbar from './Navbar';
-import { TypingText, TitleText } from './CustomTexts';
-import ExploreCard from './ExploreCard';
-import StartSteps from './StartSteps';
-import NewFeatures from './NewFeatures';
-import InsightCard from './InsightCard';
-import Footer from './Footer';
+import Navbar from "./Navbar";
+import { TypingText, TitleText } from "./CustomTexts";
+import ExploreCard from "./ExploreCard";
+import StartSteps from "./StartSteps";
+import NewFeatures from "./NewFeatures";
+import InsightCard from "./InsightCard";
+import WorldCard from "./WorldCard";
+
+import WhatsNewCard from "./WhatsNewCard";
+import Footer from "./Footer";
+import MyVerticallyCenteredModal from "./MyVerticallyCenteredModal";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export {
   Navbar,
@@ -15,4 +20,7 @@ export {
   ExploreCard,
   InsightCard,
   Footer,
+  WorldCard,
+  MyVerticallyCenteredModal,
+  WhatsNewCard,
 };

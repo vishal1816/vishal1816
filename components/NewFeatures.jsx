@@ -1,4 +1,6 @@
+import { exploreWorlds } from '../constants';
 import styles from '../styles';
+import ExploreCard from './ExploreCard';
 
 const NewFeatures = ({ imgUrl, title, subtitle }) => (
   <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
@@ -13,6 +15,7 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
     <p className="flex-1 mt-[16px] font-normal text-[18px] text-[#B0B0B0] leading-[32.4px]">
       {subtitle}
     </p>
+    
   </div>
 );
 
