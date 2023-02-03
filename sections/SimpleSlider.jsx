@@ -58,10 +58,10 @@
 // };
 // export default SimpleSlider;
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 import React from "react";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import { whatsnew } from "../constants";
 import { WhatsNewCard } from "../components";
 import { useState } from "react";
