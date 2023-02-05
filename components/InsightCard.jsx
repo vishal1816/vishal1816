@@ -5,7 +5,6 @@ import styles from "../styles";
 import { fadeIn } from "../utils/motion";
 
 const Insight = ({ id, imgUrl, title, index, active, handleClick }) => {
-
   return (
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -15,6 +14,7 @@ const Insight = ({ id, imgUrl, title, index, active, handleClick }) => {
       onClick={() => handleClick(id)}
     >
       <img
+        style={{ padding: "8px" }}
         src={imgUrl}
         alt="planet-04"
         className="absolute w-full h-full object-cover rounded-[24px]"
@@ -24,7 +24,11 @@ const Insight = ({ id, imgUrl, title, index, active, handleClick }) => {
           {title}
         </h3>
       ) : (
-        <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
+        <div
+          style={{ width: "213px", marginBottom: "8px" }}
+        
+          className="absolute bottom-0 p-8 flex justify-start  flex-col bg-[rgba(0,0,0,0.5)] rounded-[24px]"
+        >
           <div
             className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
           >
@@ -41,9 +45,25 @@ const Insight = ({ id, imgUrl, title, index, active, handleClick }) => {
             {title}
           </h2>
 
-    
-        
-      
+          <button
+            style={{
+              color: "white",
+              fontSize: 18,
+              background: "darkblue",
+              outline: "none",
+              borderRadius:"5px",
+            }}
+          >
+            <a
+              style={{
+                color: "white",
+                textDecoration:"blink",
+              }}
+              href="https://codeniatechnologies.com/"
+            >
+              click
+            </a>
+          </button>
         </div>
       )}
     </motion.div>

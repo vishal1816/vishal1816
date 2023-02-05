@@ -42,9 +42,7 @@ const GetStarted = () => (
           ))}
           
           <MyVerticallyCenteredModal>
-
-            
-
+          
           </MyVerticallyCenteredModal>
         </div>
       </motion.div>

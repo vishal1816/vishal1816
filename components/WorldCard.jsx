@@ -15,6 +15,7 @@ const WorldCard = ({ id, imgUrl, title, index, active, handleClick }) => {
       onClick={() => handleClick(id)}
     >
       <img
+        style={{padding : "8px"}}
         src={imgUrl}
         alt="planet-04"
         className="absolute w-full h-full object-cover rounded-[24px]"
@@ -24,7 +25,7 @@ const WorldCard = ({ id, imgUrl, title, index, active, handleClick }) => {
           {title}
         </h3>
       ) : (
-        <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
+        <div  style={{width: "175px", marginBottom: "8px" }} className="absolute bottom-0 p-8 flex justify-start  flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
           <div
             className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
           >

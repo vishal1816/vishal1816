@@ -1,37 +1,37 @@
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from "react";
 import Slider from "react-slick";
-import { whatsnew } from "../constants";
-import { WhatsNewCard } from "../components";
+import { insights } from "../constants";
+import { InsightCard } from "../components";
 import { useState } from "react";
 
-const SimpleSlider = () => {
+const SimpleSlider3 = () => {
   const [active, setActive] = useState("world-2");
   var settings = {
-
     infinite: false,
     speed:500,
-    slidesToShow: 6,
-    slidesToScroll: 6,
+    slidesToShow: 5,
+    slidesToScroll:5,
   };
   return (
     <Slider style={{ margin:"10px", width: "100%"  }}
     {...settings}>
-          {whatsnew.map((item, index) => {
+          {insights.map((item, index) => {
             return (
                <>
-                 <WhatsNewCard
+               <div>
+               <InsightCard
                   index={index}
                    {...item}
                  key={item.id}
                  id={item.id}
                   active={active}
                   title={item.title}
-                  heading={item.heading}
                  handleClick={setActive}
                />
+               </div>
+                
              </>
              
             );
@@ -40,4 +40,4 @@ const SimpleSlider = () => {
   );
 };
 
-export default SimpleSlider;
+export default SimpleSlider3;

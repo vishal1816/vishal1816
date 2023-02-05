@@ -7,9 +7,10 @@ import styles from "../styles";
 import { trackWorlds } from "../constants";
 import { staggerContainer } from "../utils/motion";
 import { WorldCard, TitleText, TypingText } from "../components";
+import SimpleSlider2 from "./SimpleSlider2";
 
 const World = () => {
-  const [active, setActive] = useState("world-1");
+  const [active, setActive] = useState("world-2");
 
   return (
     <>
@@ -31,20 +32,7 @@ const World = () => {
             textStyles="text-center"
           />
           <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-4">
-            {trackWorlds.map((world, index) => {
-              return <>
-                 <WorldCard
-                  key={world.id}
-                  {...world}
-                  index={index}
-                  active={active}
-                  handleClick={setActive}
-                />
-              </>;
-
-           
-            })}
-           
+          <SimpleSlider2 />       
           </div>
         </motion.div>
       </section>

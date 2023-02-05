@@ -11,6 +11,7 @@ import Footer from "./Footer";
 import MyVerticallyCenteredModal from "./MyVerticallyCenteredModal";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 export {
   Navbar,
   TitleText,
@@ -23,4 +24,5 @@ export {
   WorldCard,
   MyVerticallyCenteredModal,
   WhatsNewCard,
+
 };
