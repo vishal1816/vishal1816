@@ -41,6 +41,7 @@ module.exports = {
       {
         namedComponents: 'arrow-function',
         unnamedComponents: 'arrow-function',
+        "quotes": [2, "single", "avoid-escape"]
       },
     ],
     'max-len': [
