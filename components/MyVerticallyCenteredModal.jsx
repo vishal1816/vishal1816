@@ -40,7 +40,10 @@ function MyVerticallyCenteredModal(props) {
            <button style={{
             borderColor:'lightrey',
             borderWidth:1,
-            padding:10,
+            paddingTop:10,
+            paddingBottom:10,
+            paddingLeft:26,
+            paddingRight:26,
             background: '#0c1024',
             color:'white',
             borderRadius:8,
