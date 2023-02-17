@@ -96,5 +96,6 @@ module.exports = {
         ],
       },
     ],
+    "quotes": [2, "double", { "avoidEscape": true }],
   },
 };
