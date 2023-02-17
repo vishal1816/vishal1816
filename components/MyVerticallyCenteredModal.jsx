@@ -21,7 +21,7 @@ function MyVerticallyCenteredModal(props) {
         <form>
         <label> Name
 
-        <input type='text' placeholder='name'></input>
+        <input type='text' placeholder='Name'></input>
             </label><br/>
             <label> Phone No.
 
@@ -30,11 +30,11 @@ function MyVerticallyCenteredModal(props) {
 
             <label> Gender
 
-        <input type='text'></input>
+        <input type='text' placeholder='Gender'></input>
             </label><br/>
             <label> Age
 
-        <input type='number'></input>
+        <input type='number' placeholder='Age'></input>
             </label><br/>
 
            <button style={{
