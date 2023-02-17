@@ -160,7 +160,9 @@
 
 input {
   width: 100%;
-  border: 1px solid lightgrey;
+  border: 1px solid #aeaeae;
+  padding: 9px 20px;
+  outline: 1px solid #a4f4e7;
 }
 
 label {
