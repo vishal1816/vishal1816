@@ -41,62 +41,62 @@ export const trackWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'Comming Soon',
+    title: 'Coming Soon',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'Comming Soon ',
+    title: 'Coming Soon ',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Comming Soon ',
+    title: 'Coming Soon ',
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'Comming Soon',
+    title: 'Coming Soon',
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'Comming Soon',
+    title: 'Coming Soon',
   },
   {
     id: 'world-6',
     imgUrl: '/planet-01.png',
-    title: 'Comming Soon',
+    title: 'Coming Soon',
   },
   {
     id: 'world-7',
     imgUrl: '/planet-02.png',
-    title: 'Comming Soon ',
+    title: 'Coming Soon ',
   },
   {
     id: 'world-8',
     imgUrl: '/planet-03.png',
-    title: 'Comming Soon ',
+    title: 'Coming Soon ',
   },
   {
     id: 'world-9',
     imgUrl: '/planet-04.png',
-    title: 'Comming Soon',
+    title: 'Coming Soon',
   },
   {
     id: 'world-10',
     imgUrl: '/planet-05.png',
-    title: 'Comming Soon',
+    title: 'Coming Soon',
   },
   {
     id: 'world-11',
     imgUrl: '/planet-04.png',
-    title: 'Comming Soon',
+    title: 'Coming Soon',
   },
   {
     id: 'world-12',
     imgUrl: '/planet-05.png',
-    title: 'Comming Soon',
+    title: 'Coming Soon',
   }
 ];
 
@@ -131,22 +131,22 @@ export const insights = [
     {
       id: 'world-2',
       imgUrl: '/planet-02.png',
-      title: 'Comming Soon ',
+      title: 'Coming Soon ',
     },
     {
       id: 'world-3',
       imgUrl: '/planet-03.png',
-      title: 'Comming Soon ',
+      title: 'Coming Soon ',
     },
     {
       id: 'world-4',
       imgUrl: '/planet-04.png',
-      title: 'Comming Soon',
+      title: 'Coming Soon',
     },
     {
       id: 'world-5',
       imgUrl: '/planet-05.png',
-      title: 'Comming Soon',
+      title: 'Coming Soon',
     },
     {
       id: 'world-6',
