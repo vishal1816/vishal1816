@@ -18,7 +18,10 @@ const Footer = () => (
       <div className="flex items-center justify-center flex-wrap gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Alpha Code Labs <br/>
-          <h6 className={styles.footer_slogan}> (A studio innovate initiative)</h6>
+          <h6 style={{
+            fontSize:23,
+             textAlign:'center'
+          }} className={styles.footer_slogan} > (A studio innovate initiative)</h6>
         </h4>
         {/* <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <img
