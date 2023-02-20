@@ -74,6 +74,10 @@
   transform: rotate(-114.2deg);
 }
 
+.heroHeading{
+  font-family: 'Indie Flower', cursive;
+}
+
 .gradient-04 {
   position: absolute;
   width: 304px;
