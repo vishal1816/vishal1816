@@ -2,31 +2,37 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
+    heading:'Operating Model 1 ',
     title: 'Your Idea, You  are a full time founder and you have the capital. We form a company and we start the build together. We grind together to make this company successful',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
+    heading:'Operating Model 2 ',
     title: 'Your Idea, You  are a part-time founder and you have no capital. We form a company and we start the build together. We grind together to make this company successful. ',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
+    heading:'Operating Model 3 ',
     title: 'Your Idea, You are a full time founder and you just want someone to build the product. We build the product and you pay us for our services. ',
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
+    heading:'Operating Model 4 ',
     title: 'Come be part of the studio build projects. We are constantly innovating and building. Look at the options and see if you want to be associated.',
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
+    heading:'Operating Model 5 ',
     title: 'Your idea, You are a full time founder and you have the capital.But you don’t want to form a company straight away. Talk to us to understand more about this model.',
   },
   {
     id: 'world-6',
     imgUrl: '/planet-05.png',
+    heading:'Operating Model 6 ',
     title: 'Your organization is getting bigger. Innovation and speed are no longer it’s forte. Talk to us about our corporate co-build options. Let’s see how we can change the technology landscape of your organization.',
   },
 ];

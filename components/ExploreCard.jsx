@@ -5,7 +5,7 @@ import { MyVerticallyCenteredModal } from ".";
 import styles from "../styles";
 import { fadeIn } from "../utils/motion";
 
-const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => {
+const ExploreCard = ({ id, imgUrl, title, index, active, handleClick,heading }) => {
  
   return (
     <motion.div
@@ -36,7 +36,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => {
             />
           </div>
           <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
-            Operating Model
+           {heading}
           </p>
           <h2 className="mt-[24px] font-semibold sm:text-[19px] text-[24px] text-white">
             {title}

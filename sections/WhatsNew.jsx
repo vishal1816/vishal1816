@@ -25,7 +25,7 @@ const WhatsNew = () => {
             variants={fadeIn("right", "tween", 0.2, 1)}
             className="flex-[0.95] flex justify-center flex-col"
           >
-            <TypingText title="| Whats new?" />
+            <TypingText title="|  Our early Investors" />
           </motion.div>
 
           <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-4">
