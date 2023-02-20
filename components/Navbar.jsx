@@ -30,7 +30,7 @@ const Navbar = () => {
         className="w-[150px] h-[30px] object-contain"
       /> */}
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-        Alpha Code Labs
+         Alpha Code Labs
       </h2>
         <button
           className="navbar-toggler"

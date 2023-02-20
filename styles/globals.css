@@ -183,3 +183,8 @@ slick-slide img {
 display: block;
 padding: 10px !important;
 }
+
+.footer_slogan{
+  text-align: center;
+  font-size: 23px;
+}
