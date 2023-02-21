@@ -22,7 +22,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white"> Alpha Code Labs </span>  is a deep tech startups studio. We are building deep tech products of the future. With a focus on Blockchain and AI/ML , we are aspiring to engineer solutions for problems that matter. We are looking for passionate technologists to join our team.g {' '}
+        <span className="font-extrabold text-white"> Alpha Code Labs </span>  is a deep tech startups studio. We are building deep tech products of the future. With a focus on Blockchain and AI/ML , we are aspiring to engineer solutions for problems that matter. We are looking for passionate technologists to join our team. {' '}
         <span className="font-extrabold text-white">
          
         </span>{' '}
