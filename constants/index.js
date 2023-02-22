@@ -178,7 +178,7 @@ export const insights = [
 export const whatsnew = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
+    imgUrl: '/Sumeet Mittal.jpeg',
     heading:'Neeraj Gupta ',
     title: 'As CEO and Managing Director of Harsoria Healthcare, Neeraj brings in years of industry experience in Healthcare. His firm Harsoria are leaders in manufacturing medical equipments. Harsoria also exports its products to many countries. ',
   },
@@ -278,12 +278,7 @@ export const whatsnew = [
     heading:'Sumeet Mittal ',
     title: 'Sumeet works for the Louis Dreyfus company. He has been in the cotton trading industry since 2008 and is an expert in the Agritech space.',
   },
-  {
-    id: 'world-18',
-    imgUrl: '/planet-05.png',
-    heading:'Ashish Kumar',
-    title: 'Ashish is the managing director for Codenia Technologies. Codenia is a one stop shop for building web and mobile applications at scale.',
-  }
+  
 ];
 
 export const socials = [
