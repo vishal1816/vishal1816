@@ -8,7 +8,7 @@ import {  TitleText, TypingText } from '../components';
 import SimpleSlider3 from './SimpleSlider3';
 
 const Insight = () => {
-  const [active, setActive] = useState('world-2');
+  const [active] = useState('world-2');
 
   return (
     <section className={`${styles.paddings}`} id="explore">
