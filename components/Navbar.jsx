@@ -19,7 +19,7 @@ const Navbar = () => {
   };
   return (
     <div>
-      <nav className="navbar  navbar-dark py-3 m-4 ">
+      <nav className="navbar  navbar-dark  ">
       <div className="absolute w-[50%] inset-0 gradient-01" />
     <div
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
@@ -29,8 +29,12 @@ const Navbar = () => {
         alt="search"
         className="w-[150px] h-[30px] object-contain"
       /> */}
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-         Alpha Code Labs
+      <h2 className="font-extrabold text-[70px] leading-[30.24px] text-white">
+      <img
+        src="/newlogoalpha.png"
+        alt="search"
+        className="w-[250px] h-[100px] object-contain"
+      />  
       </h2>
         <button
           className="navbar-toggler"
@@ -51,32 +55,32 @@ const Navbar = () => {
         <div className=" navbar-collapse bg-dark" id="navbarCollapse">
           <ul className="navbar-nav  text-white">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#about_us">
               About Us
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#explore">
               Operating Models for Founders
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#get">
               Submit Interest
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#investor">
               Early Investors and Mentors
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#products">
               Our Projects
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#partner">
               Our Partners
               </a>
             </li>

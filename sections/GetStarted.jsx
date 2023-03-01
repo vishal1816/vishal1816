@@ -8,7 +8,7 @@ import { MyVerticallyCenteredModal, StartSteps, TitleText, TypingText } from '..
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 
 const GetStarted = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`} id="get">
     <motion.div
       variants={staggerContainer}
       initial="hidden"

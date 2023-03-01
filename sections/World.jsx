@@ -14,7 +14,7 @@ const World = () => {
 
   return (
     <>
-      <section className={`${styles.paddings}`} id="explore">
+      <section className={`${styles.paddings}`} id="products">
         <motion.div
           variants={staggerContainer}
           initial="hidden"

@@ -13,7 +13,7 @@ const WhatsNew = () => {
   const [active, setActive] = useState("world-2");
   return (
     <>
-      <section className={`${styles.paddings}`} id="explore">
+      <section className={`${styles.paddings}`} id="investor">
         <motion.div
           variants={staggerContainer}
           initial="hidden"

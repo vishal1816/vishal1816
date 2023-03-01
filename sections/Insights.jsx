@@ -11,7 +11,7 @@ const Insight = () => {
   const [active] = useState('world-2');
 
   return (
-    <section className={`${styles.paddings}`} id="explore">
+    <section className={`${styles.paddings}`} id="partner">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
