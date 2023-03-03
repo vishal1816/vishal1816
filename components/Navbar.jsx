@@ -31,7 +31,7 @@ const Navbar = () => {
       /> */}
       <h2 className="font-extrabold text-[70px] leading-[30.24px] text-white">
       <img
-        src="/newlogoalpha.png"
+        src="/acl.png"
         alt="search"
         className="w-[250px] h-[100px] object-contain"
       />  

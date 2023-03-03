@@ -29,12 +29,12 @@ export const exploreWorlds = [
     heading:'Operating Model 5 ',
     title: 'Your idea, You are a full time founder and you have the capital.But you don’t want to form a company straight away. Talk to us to understand more about this model.',
   },
-  {
-    id: 'world-6',
-    imgUrl: '/planet-05.png',
-    heading:'Operating Model 6 ',
-    title: 'Your organization is getting bigger. Innovation and speed are no longer it’s forte. Talk to us about our corporate co-build options. Let’s see how we can change the technology landscape of your organization.',
-  },
+  // {
+  //   id: 'world-6',
+  //   imgUrl: '/planet-05.png',
+  //   heading:'Operating Model 6 ',
+  //   title: 'Your organization is getting bigger. Innovation and speed are no longer it’s forte. Talk to us about our corporate co-build options. Let’s see how we can change the technology landscape of your organization.',
+  // },
 ];
 
 export const trackWorlds = [
