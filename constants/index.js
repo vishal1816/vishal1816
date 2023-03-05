@@ -188,6 +188,7 @@ export const whatsnew = [
     heading:'Rahul Keswani',
     title: 'As CEO and Managing Director of MHK Exports, Rahul beings in years of industry experience in Textile and garments. MHK is one of the leading garment exporter of the country with operations in many countries globally.  ',
   },
+
   {
     id: 'world-3',
     imgUrl: '/Rohit Dalal.jpeg',
@@ -196,7 +197,7 @@ export const whatsnew = [
   },
   {
     id: 'world-4',
-    imgUrl: '/Pankaj Chaddah.jpeg',
+    imgUrl: '/pankaj.jpg',
     heading:'Pankaj Chaddah',
     title: 'Known lovingly as PC, Pankaj was the co-founder of Zomato, before spinning off and creating his own baby called Shyft. Shyft is a personalized, lifestyle driven health care platform. PC is a serial entrepreneur and investor.',
   },
@@ -218,66 +219,76 @@ export const whatsnew = [
     heading:'Samir Dewan ',
     title: 'Samy heads Affluent banking over at Indusind Bank. As the job profile suggests, he is our resident expert in Finance. Samy also has a fund that helps small companies grow at a quick pace. ',
   },
+  
+ 
   {
     id: 'world-8',
-    imgUrl: '/Mrigank Tripathi.jpeg',
+    imgUrl: '/gaurav.jpeg',
+    heading:'Gaurav Verma ',
+    title: 'This Chief Marketing Officer of PharmEasy is an industry expert in Marketing. Previously with Zomato, Gaurav is well known in the industry as a marketing guru.',
+  },
+{
+    id: 'world-9',
+    imgUrl: '/mriyang.jpeg',
     heading:'Mrigank Tripathi',
     title: 'This Chief Growth Office of PeopleStrong is an industry expert in B2B Saas. An entrepreneur by heart, Mrigank is also a mentor to countless B2B saas products both Indian and abroad. ',
   },
   {
-    id: 'world-9',
-    imgUrl: '/Gaurav Verma.jpeg',
-    heading:'Gaurav Verma ',
-    title: 'This Chief Marketing Officer of PharmEasy is an industry expert in Marketing. Previously with Zomato, Gaurav is well known in the industry as a marketing guru.',
-  },
-  {
     id: 'world-10',
-    imgUrl: '/Viraj Sinh.jpeg',
+    imgUrl: '/viraj.jpeg',
     heading:'Viraj Sinh ',
     title: 'This Managing Partner at Affle is an industry expert in Adtech. A serial entrepreneur, Viraj took his first company all the way to IPO. A rare achievement. ',
   },
+
   {
     id: 'world-11',
-    imgUrl: '/Chirag Galundia.jpeg',
-    heading:'Chirag Galundia ',
-    title: 'This National Director at Wavemaker is widely respected in the Digital Marketing space as one of the leaders. His area of expertise is in E-Commerce.',
-  },
-  {
-    id: 'world-12',
-    imgUrl: '/Ravi Shharma.jpeg',
-    heading:'Ravi Sharma',
-    title: 'This hardcore sales man has vast experience in B2C sales. Growing internet businesses is his strength and he has done it for over 25 years. ',
-  },
-  {
-    id: 'world-13',
-    imgUrl: '/Navin Wazir.jpeg',
-    heading:'Navin Wazir',
-    title: 'Navin works as a Country Head for Bacardi Indonesia. Navin’s strength is in operations, in strategic planning and in driving large teams. ',
-  },
-  {
-    id: 'world-14',
-    imgUrl: '/Arjun Mehta.jpeg',
+    imgUrl: '/arjun.jpeg',
     heading:'Arjun Mehta',
     title: 'Arjun is a partner at BDO India. Arjun is a Risk Advisory specialist and has over 25 years of expertise in identifying, predicting and mitigating business threats.',
   },
+
   {
-    id: 'world-15',
-    imgUrl: '/Saurabh Gupta.jpeg',
+    id: 'world-12',
+    imgUrl: '/saurabh.jpeg',
     heading:'Saurabh Gupta',
     title: 'Saurabh is Head of Operations at GLG. His core strength is in operations, in strategic planning and in driving large teams.',
   },
   {
+
+    id: 'world-13',
+    imgUrl: '/chirag.jpg',
+    heading:'Chirag Galundia ',
+    title: 'This National Director at Wavemaker is widely respected in the Digital Marketing space as one of the leaders. His area of expertise is in E-Commerce.',
+  },
+  {
+    id: 'world-14',
+    imgUrl: '/ravisharma.jpg',
+    heading:'Ravi Sharma',
+    title: 'This hardcore sales man has vast experience in B2C sales. Growing internet businesses is his strength and he has done it for over 25 years. ',
+  },
+
+   {
+    id: 'world-15',
+    imgUrl: '/Navin Wazir.jpeg',
+    heading:'Navin Wazir',
+    title: 'Navin works as a Country Head for Bacardi Indonesia. Navin’s strength is in operations, in strategic planning and in driving large teams. ',
+  },
+
+
+  {
     id: 'world-16',
-    imgUrl: '/Rachit Bahri.jpeg',
+    imgUrl: '/rachit.jpg',
     heading:'Rachit Bahri ',
     title: 'As Managing Director of Pravin Papers Ltd, Rachit brings in years of industry experience in Distribution. Rachit is a distributor/trader in petroleum coke. ',
   },
+
   {
     id: 'world-17',
-    imgUrl: '/Sumeet Mittal.jpeg',
+    imgUrl: '/Sumit.jpg',
     heading:'Sumeet Mittal ',
     title: 'Sumeet works for the Louis Dreyfus company. He has been in the cotton trading industry since 2008 and is an expert in the Agritech space.',
   },
+
   
 ];
 

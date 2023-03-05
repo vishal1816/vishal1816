@@ -13,8 +13,8 @@ const SimpleSlider = () => {
 
     infinite: false,
     speed:500,
-    slidesToShow: 6,
-    slidesToScroll: 6,
+    slidesToShow: 4,
+    slidesToScroll: 4,
   };
   return (
     <Slider style={{ margin:"10px", width: "100%"  }}
