@@ -284,7 +284,7 @@ export const whatsnew = [
 
   {
     id: 'world-17',
-    imgUrl: '/Sumit.jpg',
+    imgUrl: '/sumit.jpg',
     heading:'Sumeet Mittal ',
     title: 'Sumeet works for the Louis Dreyfus company. He has been in the cotton trading industry since 2008 and is an expert in the Agritech space.',
   },
