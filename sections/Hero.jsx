@@ -34,7 +34,7 @@ const Hero = () => (
           fontFamily: 'Poppins', 
           fontSize: "60px",
           marginBottom:'70px',
-          lineHeight:'100px'
+          lineHeight:'100px' 
         }} variants={textVariant(1.1)} className={styles.heroHeading}>
           Build Together
         </motion.h1>
