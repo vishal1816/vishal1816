@@ -178,7 +178,7 @@ export const insights = [
 export const whatsnew = [
   {
     id: 'world-1',
-    imgUrl: '/Neeraj Gupta.jpeg',
+    imgUrl: '/neraj.jpg',
     heading:'Neeraj Gupta ',
     title: 'As CEO and Managing Director of Harsoria Healthcare, Neeraj brings in years of industry experience in Healthcare. His firm Harsoria are leaders in manufacturing medical equipments. Harsoria also exports its products to many countries. ',
   },
@@ -191,7 +191,7 @@ export const whatsnew = [
 
   {
     id: 'world-3',
-    imgUrl: '/Rohit Dalal.jpeg',
+    imgUrl: '/rohit.jpg',
     heading:'Rohit Dalal',
     title: 'As Chairman and CEO of the Spiti Group, Rohit also runs and operates the Suncity school in Gurgaon. Rohit is also a diverse investor with interests in various companies and businesses. His school boasts of one of the premium sports facilities in the country.  ',
   },
@@ -203,19 +203,19 @@ export const whatsnew = [
   },
   {
     id: 'world-5',
-    imgUrl: '/Tejasvi Bhargava.jpeg',
+    imgUrl: '/tejas.jpg',
     heading:'Tejasvi Bhargava ',
     title: '– As CEO and Managing Director of Quality Group, Tejasvi brings in years of industry experience in manufacturing. Tejasvi’s manufacturing unit produces steel parts for many industries. ',
   },
   {
     id: 'world-6',
-    imgUrl: '/Karan Bedi.jpeg',
+    imgUrl: '/karan.jpg',
     heading:'Karan Bedi',
     title: 'As Managing Director of AIHP, Karan brings in years of industry experience in Real Estate. Karan also has recently brought in the Elle Décor brand in India, with the flagship store in Gurgaon. ',
   },
   {
     id: 'world-7',
-    imgUrl: '/Samir Dewan.jpeg',
+    imgUrl: '/samir.jpg',
     heading:'Samir Dewan ',
     title: 'Samy heads Affluent banking over at Indusind Bank. As the job profile suggests, he is our resident expert in Finance. Samy also has a fund that helps small companies grow at a quick pace. ',
   },
