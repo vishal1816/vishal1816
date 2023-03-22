@@ -1,7 +1,7 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
+    imgUrl: '/pla.png',
     heading:'Operating Model 1 ',
     title: 'Your Idea, You  are a full time founder and you have the capital. We form a company and we start the build together. We grind together to make this company successful',
   },
@@ -178,9 +178,9 @@ export const insights = [
 export const whatsnew = [
   {
     id: 'world-1',
-    imgUrl: '/neraj.jpg',
+    imgUrl: '/neeraj-new.jpg',
     heading:'Neeraj Gupta ',
-    title: 'As CEO and Managing Director of Harsoria Healthcare, Neeraj brings in years of industry experience in Healthcare. His firm Harsoria are leaders in manufacturing medical equipments. Harsoria also exports its products to many countries. ',
+    title: ' Neeraj Gupta  As CEO and Managing Director of Harsoria Healthcare, Neeraj brings in years of industry experience in Healthcare. His firm Harsoria are leaders in manufacturing medical equipments. Harsoria also exports its products to many countries. ',
   },
   {
     id: 'world-2',
@@ -191,19 +191,19 @@ export const whatsnew = [
 
   {
     id: 'world-3',
-    imgUrl: '/rohit.jpg',
+    imgUrl: '/rohit-new.jpg',
     heading:'Rohit Dalal',
     title: 'As Chairman and CEO of the Spiti Group, Rohit also runs and operates the Suncity school in Gurgaon. Rohit is also a diverse investor with interests in various companies and businesses. His school boasts of one of the premium sports facilities in the country.  ',
   },
   {
     id: 'world-4',
-    imgUrl: '/pankaj.jpg',
+    imgUrl: '/pankaj-new.jpg',
     heading:'Pankaj Chaddah',
     title: 'Known lovingly as PC, Pankaj was the co-founder of Zomato, before spinning off and creating his own baby called Shyft. Shyft is a personalized, lifestyle driven health care platform. PC is a serial entrepreneur and investor.',
   },
   {
     id: 'world-5',
-    imgUrl: '/tejas.jpg',
+    imgUrl: '/tejas-new.jpg',
     heading:'Tejasvi Bhargava ',
     title: '– As CEO and Managing Director of Quality Group, Tejasvi brings in years of industry experience in manufacturing. Tejasvi’s manufacturing unit produces steel parts for many industries. ',
   },
@@ -223,7 +223,7 @@ export const whatsnew = [
  
   {
     id: 'world-8',
-    imgUrl: '/gaurav.jpeg',
+    imgUrl: '/gaurav.jpg',
     heading:'Gaurav Verma ',
     title: 'This Chief Marketing Officer of PharmEasy is an industry expert in Marketing. Previously with Zomato, Gaurav is well known in the industry as a marketing guru.',
   },
@@ -267,12 +267,12 @@ export const whatsnew = [
     title: 'This hardcore sales man has vast experience in B2C sales. Growing internet businesses is his strength and he has done it for over 25 years. ',
   },
 
-   {
-    id: 'world-15',
-    imgUrl: '/Navin Wazir.jpeg',
-    heading:'Navin Wazir',
-    title: 'Navin works as a Country Head for Bacardi Indonesia. Navin’s strength is in operations, in strategic planning and in driving large teams. ',
-  },
+  //  {
+  //   id: 'world-15',
+  //   imgUrl: '/Navin Wazir.jpeg',
+  //   heading:'Navin Wazir',
+  //   title: 'Navin works as a Country Head for Bacardi Indonesia. Navin’s strength is in operations, in strategic planning and in driving large teams. ',
+  // },
 
 
   {

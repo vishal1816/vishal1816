@@ -9,10 +9,12 @@ import { useState } from "react";
 const SimpleSlider3 = () => {
   const [active, setActive] = useState("world-2");
   var settings = {
-    infinite: false,
+    infinite: 'false',
     speed:500,
+    arrows: false,
     slidesToShow: 4,
     slidesToScroll:4,
+  
   };
   return (
     <Slider style={{ margin:"10px", width: "100%"  }}

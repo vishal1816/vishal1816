@@ -11,8 +11,10 @@ const SimpleSlider2 = () => {
   var settings = {
     infinite: false,
     speed:500,
+    arrows: false,
     slidesToShow: 4,
     slidesToScroll: 4,
+    
   };
   return (
     <Slider style={{ margin:"10px", width: "100%"  }}

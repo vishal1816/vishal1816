@@ -21,7 +21,7 @@ const Footer = () => (
           <h6 style={{
             fontSize:23,
              textAlign:'center'
-          }} className={styles.footer_slogan} > (A studio innovate initiative)</h6>
+          }} className={styles.footer_slogan} > (A Studio Innovate Initiative)</h6>
         </h4>
         {/* <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <img
