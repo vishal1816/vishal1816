@@ -13,13 +13,13 @@ const SimpleSlider = () => {
 
     infinite: false,
     speed:500,
-    settings: "unslick",
+    
     slidesToShow: 4,
     slidesToScroll: 4,
     
   };
   return (
-    <Slider style={{ margin:"10px", width: "100%"  }}
+    <Slider  style={{ margin:"10px", width: "100%"  }}
     {...settings}>
           {whatsnew.map((item, index) => {
             return (

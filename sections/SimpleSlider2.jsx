@@ -11,7 +11,8 @@ const SimpleSlider2 = () => {
   var settings = {
     infinite: false,
     speed:500,
-    
+    accessibility: false,
+    draggable: false,   
     arrows: false,
     slidesToShow: 4,
     slidesToScroll: 4,
