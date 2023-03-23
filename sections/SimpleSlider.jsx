@@ -13,6 +13,7 @@ const SimpleSlider = () => {
 
     infinite: false,
     speed:500,
+    settings: "unslick",
     slidesToShow: 4,
     slidesToScroll: 4,
     
