@@ -2,8 +2,38 @@ import Button from 'react-bootstrap/lib/Button';
 import Modal from 'react-bootstrap/lib/Modal';
 import React, { useState } from 'react';
 import styles from '../styles';
+import axios from 'axios';
+
+
+
 
 function MyVerticallyCenteredModal(props) {
+  const [emailResult, setEmailResult] = useState(undefined);
+  const formRef = React.useRef(null);
+
+
+const sendEmail = async () => {
+  var data = { name: 'name', phonenumber:'mobile',gender:'gender', age:'age' };
+  var config = {
+    method: 'post',
+    url: 'https://mha.codeblazar.com/acl/send_email.php?',
+   
+    data: data,
+
+  };
+
+  axios(config)
+    .then(function (response) {
+      // console.log(response.data);
+      let data = [];
+      data.push(response.data);
+      setEmailResult(data);
+      console.log(data);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+};
   return (
     <Modal
       {...props}
@@ -18,7 +48,7 @@ function MyVerticallyCenteredModal(props) {
       </Modal.Header>
       <Modal.Body>
        
-        <form>
+        <form ref={formRef}>
         <label> Name
 
         <input type='text' placeholder='Name'></input>
@@ -37,7 +67,9 @@ function MyVerticallyCenteredModal(props) {
         <input type='number' placeholder='Age'></input>
             </label><br/>
 
-           <button style={{
+           <button onClick={()=>{
+            sendEmail()
+           }}  style={{
             borderColor:'lightrey',
             borderWidth:1,
             paddingTop:10,
@@ -47,7 +79,7 @@ function MyVerticallyCenteredModal(props) {
             background: '#0c1024',
             color:'white',
             borderRadius:8,
-           }} type='submit'> Submit</button>
+           }} type='submit'> Submit </button>
             
 
            
@@ -64,6 +96,8 @@ function MyVerticallyCenteredModal(props) {
     </Modal>
   );
 }
+
+
 
 function App() {
   const [modalShow, setModalShow] = React.useState(false);
