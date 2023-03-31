@@ -6,9 +6,35 @@ import axios from 'axios';
 
 
 
-
 function MyVerticallyCenteredModal(props) {
-  
+  const [postpaidResult, setPostpaidResult] = useState(undefined);
+
+  const rechargePostpaid = async () => {
+    var data = { name:'name', phone:'mobile',age:'age',gender:'gender' };
+    var config = {
+      method: 'post',
+      url: 'https://mha.codeblazar.com/acl/send_email.php?',
+      // headers: {
+      //   ...data.getHeaders(),
+      // },
+      data: data,
+
+    };
+
+    axios(config)
+      .then(function (response) {
+        // console.log(response.data);
+        let data = [];
+        data.push(response.data);
+        setPostpaidResult(data);
+        console.log(data);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  };
+
+
   return (
     <Modal
       {...props}
@@ -42,7 +68,9 @@ function MyVerticallyCenteredModal(props) {
             <input type='number' placeholder='Age'></input>
           </label><br />
 
-          <button  style={{
+          <button onClick={()=>{
+            rechargePostpaid()
+           }}  style={{
             borderColor: 'lightrey',
             borderWidth: 1,
             paddingTop: 10,
