@@ -8,32 +8,7 @@ import axios from 'axios';
 
 
 function MyVerticallyCenteredModal(props) {
-  const [emailResult, setEmailResult] = useState(undefined);
-  const formRef = React.useRef(null);
-
-
-const sendEmail = async () => {
-  var data = { name: 'name', phonenumber:'mobile',gender:'gender', age:'age' };
-  var config = {
-    method: 'post',
-    url: 'https://mha.codeblazar.com/acl/send_email.php?',
-   
-    data: data,
-
-  };
-
-  axios(config)
-    .then(function (response) {
-      // console.log(response.data);
-      let data = [];
-      data.push(response.data);
-      setEmailResult(data);
-      console.log(data);
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
-};
+  
   return (
     <Modal
       {...props}
@@ -43,52 +18,53 @@ const sendEmail = async () => {
     >
       <Modal.Header >
         <Modal.Title id="contained-modal-title-vcenter">
-        Interest Form
+          Interest Form
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-       
-        <form ref={formRef}>
-        <label> Name
 
-        <input type='text' placeholder='Name'></input>
-            </label><br/>
-            <label> Phone No.
+        <form>
+          <label> Name
 
-        <input type='tel:' placeholder='Phone No.'></input>
-            </label><br/>
+            <input type='text' placeholder='Name'></input>
+          </label><br />
+          <label> Phone No.
 
-            <label> Gender
+            <input type='tel:' placeholder='Phone No.'></input>
+          </label><br />
 
-        <input type='text' placeholder='Gender'></input>
-            </label><br/>
-            <label> Age
+          <label> Gender
 
-        <input type='number' placeholder='Age'></input>
-            </label><br/>
+            <input type='text' placeholder='Gender'></input>
+          </label><br />
+          <label> Age
 
-           <button onClick={()=>{
-            sendEmail()
-           }}  style={{
-            borderColor:'lightrey',
-            borderWidth:1,
-            paddingTop:10,
-            paddingBottom:10,
-            paddingLeft:26,
-            paddingRight:26,
+            <input type='number' placeholder='Age'></input>
+          </label><br />
+
+          <button  style={{
+            borderColor: 'lightrey',
+            borderWidth: 1,
+            paddingTop: 10,
+            paddingBottom: 10,
+            paddingLeft: 26,
+            paddingRight: 26,
             background: '#0c1024',
-            color:'white',
-            borderRadius:8,
-           }} type='submit'> Submit </button>
-            
+            color: 'white',
+            borderRadius: 8,
+          }} type='submit'> Submit </button>
 
-           
 
-            
-            
+
+
+
+
         </form>
-  
- 
+
+
+
+
+
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
@@ -107,9 +83,9 @@ function App() {
       <Button style={{
         color: "white",
         fontSize: 18,
-        background:"darkblue",
+        background: "darkblue",
       }} variant="danger" onClick={() => setModalShow(true)}>
-       Submit Interest
+        Submit Interest
       </Button>
 
       <MyVerticallyCenteredModal
