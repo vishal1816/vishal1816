@@ -7,25 +7,25 @@ export const exploreWorlds = [
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-new.png',
+    imgUrl: '/pla.png',
     heading:'Operating Model 2 ',
     title: ' Operating Model 2 Your Idea, You  are a part-time founder and you have no capital. We form a company and we start the build together. We grind together to make this company successful. ',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-new2.png',
+    imgUrl: '/pla.png',
     heading:'Operating Model 3 ', 
     title: ' Operating Model 3 Your Idea, You are a full time founder and you just want someone to build the product. We build the product and you pay us for our services. ',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-new3.png',
+    imgUrl: '/pla.png',
     heading:'Operating Model 4 ',
     title: ' Operating Model 4 Come be part of the studio build projects. We are constantly innovating and building. Look at the options and see if you want to be associated.',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-new4.png',
+    imgUrl: '/pla.png',
     heading:'Operating Model 5 ',
     title: ' Operating Model 5 Your idea, You are a full time founder and you have the capital.But you don’t want to form a company straight away. Talk to us to understand more about this model.',
   },
@@ -45,37 +45,37 @@ export const trackWorlds = [
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-new.png',
+    imgUrl: '/pla.png',
     title: 'Coming Soon ',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-new2.png',
+    imgUrl: '/pla.png',
     title: 'Coming Soon ',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-new3.png',
+    imgUrl: '/pla.png',
     title: 'Coming Soon',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-new4.png',
+    imgUrl: '/pla.png',
     title: 'Coming Soon',
   },
   {
     id: 'world-6',
-    imgUrl: '/planet-01.png',
+    imgUrl: '/pla.png',
     title: 'Coming Soon',
   },
   {
     id: 'world-7',
-    imgUrl: '/planet-02.png',
+    imgUrl: '/pla.png',
     title: 'Coming Soon ',
   },
   {
     id: 'world-8',
-    imgUrl: '/planet-03.png',
+    imgUrl: '/pla.png',
     title: 'Coming Soon ',
   },
   {
@@ -130,47 +130,47 @@ export const insights = [
     },
     {
       id: 'world-2',
-      imgUrl: '/planet-new.png',
+      imgUrl: '/pla.png',
       title: 'Coming Soon ',
     },
     {
       id: 'world-3',
-      imgUrl: '/planet-new2.png',
+      imgUrl: '/pla.png',
       title: 'Coming Soon ',
     },
     {
       id: 'world-4',
-      imgUrl: '/planet-new3.png',
+      imgUrl: '/pla.png',
       title: 'Coming Soon',
     },
     {
       id: 'world-5',
-      imgUrl: '/planet-new4.png',
+      imgUrl: '/pla.png',
       title: 'Coming Soon',
     },
     {
       id: 'world-6',
-      imgUrl: '/planet-05.png',
+      imgUrl: '/pla.png',
       title: 'Your organization is getting bigger. Innovation and speed are no longer it’s forte. Talk to us about our corporate co-build options. Let’s see how we can change the technology landscape of your organization.',
     },
     {
       id: 'world-7',
-      imgUrl: '/planet-01.png',
+      imgUrl: '/pla.png',
       title: 'Your Idea, You  are a full time founder and you have the capital. We form a company and we start the build together. We grind together to make this company successful',
     },
     {
       id: 'world-8',
-      imgUrl: '/planet-02.png',
+      imgUrl: '/pla.png',
       title: 'Your Idea, You  are a part-time founder and you have no capital. We form a company and we start the build together. We grind together to make this company successful. ',
     },
     {
       id: 'world-9',
-      imgUrl: '/planet-03.png',
+      imgUrl: '/pla.png',
       title: 'Your Idea, You are a full time founder and you just want someone to build the product. We build the product and you pay us for our services. ',
     },
     {
       id: 'world-10',
-      imgUrl: '/planet-04.png',
+      imgUrl: '/pla.png',
       title: 'Come be part of the studio build projects. We are constantly innovating and building. Look at the options and see if you want to be associated.',
     }
 ];
@@ -264,7 +264,7 @@ export const whatsnew = [
     id: 'world-14',
     imgUrl: '/ravisharma.jpg',
     heading:'Ravi Sharma',
-    title: ' Ravi Sharma This hardcore sales man has vast experience in B2C sales. Growing internet businesses is his strength and he has done it for over 25 years. ',
+    title: ' Ravi Sharma        This hardcore sales man has vast experience in B2C sales. Growing internet businesses is his strength and he has done it for over 25 years. ',
   },
 
   //  {

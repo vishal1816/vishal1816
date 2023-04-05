@@ -27,12 +27,7 @@
 }
 
 .hero-gradient {
-  background: linear-gradient(
-    97.86deg,
-    #a509ff 0%,
-    #34acc7 53.65%,
-    #a134c7 100%
-  );
+  background: linear-gradient( 97.86deg, #070507 0%, #34acc7 53.65%, #a134c7 100% );
 }
 
 .gradient-02 {
@@ -47,11 +42,21 @@
 }
 
 .my-card{
-  width:140px;
+  width:130px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  font-size: 16px; 
+  font-size: 16px;
+  
+}
+
+.my-cards{
+  width:176px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 16px;
+  margin-left: 56px; 
 }
 
 .glassmorphism {
@@ -122,6 +127,14 @@
 
 nav.navbar.navbar-dark {
   margin-right: 20px;
+}
+
+.namecard {
+  width: 98%;
+  height: 154px;
+  position: absolute;
+  top: 77%;
+  
 }
 
 

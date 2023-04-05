@@ -30,9 +30,11 @@ const WhatsNewCard = ({
         className="absolute w-full h-full object-cover rounded-[24px] "
       />
       {active !== id ? (
-        <h3 className=" my-card font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20  lg:origin-[0,0]">
+          <div className="namecard flex justify-start w-full flex-col bg-[rgba(0,0,0,0.7)] rounded-b-[24px]">
+        <h3 className=" my-cards font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20  lg:origin-[0,0]">
           {title}
         </h3>
+        </div>
       ) : (
         <div
           style={{ width: "175px" }}
