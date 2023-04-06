@@ -38,7 +38,7 @@ const WhatsNewCard = ({
       ) : (
         <div
           style={{ width: "175px" }}
-          className="absolute  p-8 flex justify-start bottom-0 flex-col bg-[rgba(0,0,0,0.5)] rounded-[24px] "
+          className="absolute  p-8 flex justify-start  flex-col bg-[rgba(0,0,0,0.5)] rounded-[24px] "
         >
           <div
             className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
@@ -54,6 +54,7 @@ const WhatsNewCard = ({
           </p>
           <h2 className="mt-[24px] font-semibold sm:text-[16px] text-[24px] text-white">
             {title}
+            
           </h2>
         </div>
       )}

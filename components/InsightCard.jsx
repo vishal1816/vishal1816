@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import styles from "../styles";
 import { fadeIn } from "../utils/motion";
 
-const Insight = ({ id, imgUrl, title, index, active, handleClick }) => {
+const Insight = ({ id, imgUrl, title,image, index, active, handleClick }) => {
   return (
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -17,7 +17,7 @@ const Insight = ({ id, imgUrl, title, index, active, handleClick }) => {
         style={{ padding: "8px" }}
         src={imgUrl}
         alt="planet-04"
-        className="absolute w-full h-full object-cover rounded-[24px]"
+        className="absolute w-full h-3/4 object-cover rounded-[24px]"
       />
       {active !== id ? (
         <h3 className=" my-card font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20  lg:origin-[0,0]">
@@ -25,7 +25,7 @@ const Insight = ({ id, imgUrl, title, index, active, handleClick }) => {
         </h3>
       ) : (
         <div
-          style={{ width: "213px", marginBottom: "8px" }}
+          style={{ width: "213px", marginBottom: "50px" }}
         
           className="absolute bottom-0 p-8 flex justify-start  flex-col bg-[rgba(0,0,0,0.5)] rounded-[24px]"
         >
@@ -33,9 +33,9 @@ const Insight = ({ id, imgUrl, title, index, active, handleClick }) => {
             className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
           >
             <img
-              src="/headset.svg"
+              src={image}
               alt="headset"
-              className="w-1/2 h-1/2 object-contain"
+              className="w-85 h-1/2 object-contain"
             />
           </div>
           <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">

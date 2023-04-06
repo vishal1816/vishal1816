@@ -23,12 +23,12 @@ export const exploreWorlds = [
     heading:'Operating Model 4 ',
     title: ' Operating Model 4 Come be part of the studio build projects. We are constantly innovating and building. Look at the options and see if you want to be associated.',
   },
-  {
-    id: 'world-5',
-    imgUrl: '/pla.png',
-    heading:'Operating Model 5 ',
-    title: ' Operating Model 5 Your idea, You are a full time founder and you have the capital.But you don’t want to form a company straight away. Talk to us to understand more about this model.',
-  },
+  // {
+  //   id: 'world-5',
+  //   imgUrl: '/pla.png',
+  //   heading:'Operating Model 5 ',
+  //   title: ' Operating Model 5 Your idea, You are a full time founder and you have the capital.But you don’t want to form a company straight away. Talk to us to understand more about this model.',
+  // },
   // {
   //   id: 'world-6',
   //   imgUrl: '/planet-05.png',
@@ -127,6 +127,7 @@ export const insights = [
       id: 'world-1',
       imgUrl: '/pla.png',
       title: 'Codenia Technologies',
+      image: '/companyLogo.png'
     },
     {
       id: 'world-2',
@@ -199,7 +200,7 @@ export const whatsnew = [
     id: 'world-4',
     imgUrl: '/pankaj-new.jpg',
     heading:'Pankaj Chaddah',
-    title: ' Pankaj Chaddah Known lovingly as PC, Pankaj was the co-founder of Zomato, before spinning off and creating his own baby called Shyft. Shyft is a personalized, lifestyle driven health care platform. PC is a serial entrepreneur and investor.',
+    title: ' Pankaj Chaddah Known lovingly as PC, Pankaj was the co-founder of Zomato, before spinning off and co-founding his own baby called Shyft. Shyft is a personalized, lifestyle driven health care platform. PC is a serial entrepreneur and investor.',
   },
   {
     id: 'world-5',
