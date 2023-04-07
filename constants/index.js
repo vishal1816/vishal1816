@@ -178,7 +178,7 @@ export const insights = [
 
 export const whatsnew = [
   {
-    id: 'world-1',
+    id: 'world-1', 
     imgUrl: '/neeraj.jpg',
     heading:'Neeraj Gupta ',
     title: '   As CEO and Managing Director of Harsoria Healthcare, Neeraj brings in years of industry experience in Healthcare. His firm Harsoria are leaders in manufacturing medical equipments. Harsoria also exports its products to many countries. ',
