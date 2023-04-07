@@ -181,44 +181,44 @@ export const whatsnew = [
     id: 'world-1',
     imgUrl: '/neeraj.jpg',
     heading:'Neeraj Gupta ',
-    title: ' Neeraj Gupta  As CEO and Managing Director of Harsoria Healthcare, Neeraj brings in years of industry experience in Healthcare. His firm Harsoria are leaders in manufacturing medical equipments. Harsoria also exports its products to many countries. ',
+    title: '   As CEO and Managing Director of Harsoria Healthcare, Neeraj brings in years of industry experience in Healthcare. His firm Harsoria are leaders in manufacturing medical equipments. Harsoria also exports its products to many countries. ',
   },
   {
     id: 'world-2',
     imgUrl: '/Rahul Keswani.jpeg',
     heading:'Rahul Keswani',
-    title: ' Rahul Keswani As CEO and Managing Director of MHK Exports, Rahul beings in years of industry experience in Textile and garments. MHK is one of the leading garment exporter of the country with operations in many countries globally.  ',
+    title: '  As CEO and Managing Director of MHK Exports, Rahul beings in years of industry experience in Textile and garments. MHK is one of the leading garment exporter of the country with operations in many countries globally.  ',
   },
 
   {
     id: 'world-3',
     imgUrl: '/rohit-new.jpg',
     heading:'Rohit Dalal',
-    title: ' Rohit Dalal As Chairman and CEO of the Spiti Group, Rohit also runs and operates the Suncity school in Gurgaon. Rohit is also a diverse investor with interests in various companies and businesses. His school boasts of one of the premium sports facilities in the country.  ',
+    title: ' As Chairman and CEO of the Spiti Group, Rohit also runs and operates the Suncity school in Gurgaon. Rohit is also a diverse investor with interests in various companies and businesses. His school boasts of one of the premium sports facilities in the country.  ',
   },
   {
     id: 'world-4',
     imgUrl: '/pankaj-new.jpg',
     heading:'Pankaj Chaddah',
-    title: ' Pankaj Chaddah Known lovingly as PC, Pankaj was the co-founder of Zomato, before spinning off and co-founding his own baby called Shyft. Shyft is a personalized, lifestyle driven health care platform. PC is a serial entrepreneur and investor.',
+    title: '  Known lovingly as PC, Pankaj was the co-founder of Zomato, before spinning off and co-founding his own baby called Shyft. Shyft is a personalized, lifestyle driven health care platform. PC is a serial entrepreneur and investor.',
   },
   {
     id: 'world-5',
     imgUrl: '/tejas-new.jpg',
     heading:'Tejasvi Bhargava ',
-    title: 'Tejasvi Bhargava As CEO and Managing Director of Quality Group, Tejasvi brings in years of industry experience in manufacturing. Tejasvi’s manufacturing unit produces steel parts for many industries. ',
+    title: ' As CEO and Managing Director of Quality Group, Tejasvi brings in years of industry experience in manufacturing. Tejasvi’s manufacturing unit produces steel parts for many industries. ',
   },
   {
     id: 'world-6',
     imgUrl: '/karan-new.jpg',
     heading:'Karan Bedi',
-    title: ' Karan Bedi As Managing Director of AIHP, Karan brings in years of industry experience in Real Estate. Karan also has recently brought in the Elle Décor brand in India, with the flagship store in Gurgaon. ',
+    title: '  As Managing Director of AIHP, Karan brings in years of industry experience in Real Estate. Karan also has recently brought in the Elle Décor brand in India, with the flagship store in Gurgaon. ',
   },
   {
     id: 'world-7',
     imgUrl: '/samir-new.jpg',
     heading:'Samir Dewan ',
-    title: ' Samir Dewan Samy heads Affluent banking over at Indusind Bank. As the job profile suggests, he is our resident expert in Finance. Samy also has a fund that helps small companies grow at a quick pace. ',
+    title: '  Samy heads Affluent banking over at Indusind Bank. As the job profile suggests, he is our resident expert in Finance. Samy also has a fund that helps small companies grow at a quick pace. ',
   },
   
  
@@ -226,46 +226,46 @@ export const whatsnew = [
     id: 'world-8',
     imgUrl: '/gaurav.jpg',
     heading:'Gaurav Verma ',
-    title: ' Gaurav Verma This Chief Marketing Officer of PharmEasy is an industry expert in Marketing. Previously with Zomato, Gaurav is well known in the industry as a marketing guru.',
+    title: 'This Chief Marketing Officer of PharmEasy is an industry expert in Marketing. Previously with Zomato, Gaurav is well known in the industry as a marketing guru.',
   },
 {
     id: 'world-9',
     imgUrl: '/mriyank-new.jpg',
     heading:'Mrigank Tripathi',
-    title: 'Mrigank Tripathi This Chief Growth Office of PeopleStrong is an industry expert in B2B Saas. An entrepreneur by heart, Mrigank is also a mentor to countless B2B saas products both Indian and abroad. ',
+    title: ' This Chief Growth Office of PeopleStrong is an industry expert in B2B Saas. An entrepreneur by heart, Mrigank is also a mentor to countless B2B saas products both Indian and abroad. ',
   },
   {
     id: 'world-10',
     imgUrl: '/viraj-new.jpg',
     heading:'Viraj Sinh ',
-    title: ' Viraj Sinh This Managing Partner at Affle is an industry expert in Adtech. A serial entrepreneur, Viraj took his first company all the way to IPO. A rare achievement. ',
+    title: ' This Managing Partner at Affle is an industry expert in Adtech. A serial entrepreneur, Viraj took his first company all the way to IPO. A rare achievement. ',
   },
 
   {
     id: 'world-11',
     imgUrl: '/arjun-new.jpg',
     heading:'Arjun Mehta',
-    title: 'Arjun is a partner at BDO India. Arjun is a Risk Advisory specialist and has over 25 years of expertise in identifying, predicting and mitigating business threats.',
+    title: 'He is a partner at BDO India. Arjun is a Risk Advisory specialist and has over 25 years of expertise in identifying, predicting and mitigating business threats.',
   },
 
   {
     id: 'world-12',
     imgUrl: '/saurabh-new.jpg',
     heading:'Saurabh Gupta',
-    title: 'Saurabh is Head of Operations at GLG. His core strength is in operations, in strategic planning and in driving large teams.',
+    title: 'He is Head of Operations at GLG. His core strength is in operations, in strategic planning and in driving large teams.',
   },
   {
 
     id: 'world-13',
     imgUrl: '/chirag.jpg',
     heading:'Chirag Galundia ',
-    title: ' Chirag Galundia This National Director at Wavemaker is widely respected in the Digital Marketing space as one of the leaders. His area of expertise is in E-Commerce.',
+    title: ' This National Director at Wavemaker is widely respected in the Digital Marketing space as one of the leaders. His area of expertise is in E-Commerce.',
   },
   {
     id: 'world-14',
     imgUrl: '/ravisharma.jpg',
     heading:'Ravi Sharma',
-    title: ' Ravi Sharma        This hardcore sales man has vast experience in B2C sales. Growing internet businesses is his strength and he has done it for over 25 years. ',
+    title: '        This hardcore sales man has vast experience in B2C sales. Growing internet businesses is his strength and he has done it for over 25 years. ',
   },
 
   //  {
@@ -280,14 +280,14 @@ export const whatsnew = [
     id: 'world-16',
     imgUrl: '/rachit-new.jpg',
     heading:'Rachit Bahri ',
-    title: ' Rachit Bahri As Managing Director of Pravin Papers Ltd, Rachit brings in years of industry experience in Distribution. Rachit is a distributor/trader in petroleum coke. ',
+    title: ' As Managing Director of Pravin Papers Ltd, Rachit brings in years of industry experience in Distribution. Rachit is a distributor/trader in petroleum coke. ',
   },
 
   {
     id: 'world-17',
     imgUrl: '/sumit.jpg',
     heading:'Sumeet Mittal ',
-    title: ' Sumeet Mittal  works for the Louis Dreyfus company. He has been in the cotton trading industry since 2008 and is an expert in the Agritech space.',
+    title: 'He  works for the Louis Dreyfus company. He has been in the cotton trading industry since 2008 and is an expert in the Agritech space.',
   },
 
   

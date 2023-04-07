@@ -25,7 +25,7 @@ const Insight = ({ id, imgUrl, title,image, index, active, handleClick }) => {
         </h3>
       ) : (
         <div
-          style={{ width: "213px", marginBottom: "113px" }}
+          style={{ width: "213px", marginBottom: "50px" }}
         
           className="absolute bottom-0 p-8 flex justify-start  flex-col bg-[rgba(0,0,0,0.5)] rounded-[24px]"
         >
