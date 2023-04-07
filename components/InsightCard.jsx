@@ -30,7 +30,7 @@ const Insight = ({ id, imgUrl, title,image, index, active, handleClick }) => {
           className="absolute bottom-0 p-8 flex justify-start  flex-col bg-[rgba(0,0,0,0.5)] rounded-[24px]"
         >
           <div
-            className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
+            className={`${styles.flexCenter} w-[100px] h-[70px] rounded-[24px] glassmorphism mb-[16px]`}
           >
             <img
               src={image}
