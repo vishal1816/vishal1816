@@ -15,12 +15,12 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.h1 style={{
+        <motion.h1  style={{
           fontFamily: 'Poppins', 
           fontSize: "60px",
           lineHeight:'100px',
 
-        }} variants={textVariant(1.1)}  className={styles.heroHeading}>
+        }} variants={textVariant(1.1)}  className={styles.heroHeading }>
           Build Fast
         </motion.h1>
         <motion.h1 style={{

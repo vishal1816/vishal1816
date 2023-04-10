@@ -16,6 +16,17 @@ const SimpleSlider = () => {
     
     slidesToShow: 4,
     slidesToScroll: 4,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+     
+      
+    ],
     
   };
   return (
